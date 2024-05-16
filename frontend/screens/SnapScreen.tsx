@@ -45,7 +45,7 @@ export default function SnapScreen() {
       type: "image/jpeg",
     });
 
-    fetch("http://192.168.1.149:3000/upload", {
+    fetch("http://YOUR_IP_ADRESS:3000/upload", {
       method: "POST",
       body: formData,
     })
